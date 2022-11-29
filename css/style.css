@@ -40,7 +40,7 @@ body {
   margin-bottom: 20px;
 }
 
-.header__button {
+.button {
   width: 343px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -53,6 +53,7 @@ body {
   color: var(--white);
 }
 
+.worth__benefits,
 .header__advantages {
   display: flex;
   box-sizing: border-box;
@@ -61,6 +62,7 @@ body {
   padding-bottom: 13px;
 }
 
+.worth__item,
 .header__advantage {
   box-sizing: border-box;
   width: 164px;
@@ -79,4 +81,8 @@ body {
 .header__advantage p {
   font-size: 14px;
   line-height: 20px;
+}
+
+.worth__benefits {
+  background-color: #CBECFF;
 }
