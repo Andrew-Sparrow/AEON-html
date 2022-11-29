@@ -31,6 +31,9 @@ body {
 
 .header {
   background-color: var(--light_blue);
+  background-image: url(../img/screen_phone.png);
+  background-repeat: no-repeat;
+  padding-top: 467px;
 }
 
 .logo {
@@ -176,4 +179,8 @@ body {
   line-height: 20px;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.worth__item {
+  box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
 }
