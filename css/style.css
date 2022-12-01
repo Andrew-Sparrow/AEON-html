@@ -92,9 +92,7 @@ body {
   box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
   padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-right: 10px;
   margin-bottom: 20px;
 }
 
@@ -185,17 +183,12 @@ body {
   box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.advantage {
+.icon {
   position: relative;
-}
-
-.advantage::before {
-  content: '';
-  position: absolute;
   display: block;
   width: 39px;
   height: 39px;
-  top: -50px;
+  top: -5px;
   border-radius: 50%;
   background-color: var(--pale_blue);
 }
