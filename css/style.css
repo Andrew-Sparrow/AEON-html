@@ -184,3 +184,18 @@ body {
 .worth__item {
   box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
 }
+
+.advantage {
+  position: relative;
+}
+
+.advantage::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 39px;
+  height: 39px;
+  top: -50px;
+  border-radius: 50%;
+  background-color: var(--pale_blue);
+}
