@@ -33,7 +33,7 @@ body {
   background-color: var(--light_blue);
   background-image: url(../img/screen_phone.png);
   background-repeat: no-repeat;
-  padding-top: 467px;
+  padding-top: 24px;
 }
 
 .logo {
@@ -191,4 +191,32 @@ body {
   top: -5px;
   border-radius: 50%;
   background-color: var(--pale_blue);
+}
+
+.languages {
+  display: flex;
+  width: 65px;
+  justify-content: space-between;
+  margin-bottom: 430px;
+  margin-left: auto;
+}
+
+.languages__item {
+  display: block;
+  width: 26px;
+  height: 24px;
+  background-color: var(--light_blue);
+  border-radius: 50%;
+  color: var(--dark_blue);
+  font-size: 14px;
+  line-height: 26px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.languages__item--active {
+  background-color: var(--white);
+  border-radius: 50%;
+  color: var(--blue);
 }
