@@ -248,6 +248,19 @@ body {
 
   .button--worth {
     width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .products {
+    margin-bottom: 20px;
+  }
+
+  .worth__title {
+    margin-bottom: 20px;
+  }
+
+  .worth__description {
+    margin-bottom: 30px;
   }
 }
 
