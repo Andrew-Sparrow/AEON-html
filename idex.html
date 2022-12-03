@@ -15,8 +15,8 @@
     <link rel="icon" type="image/svg+xml" href="./img/icons8_bookmark.svg" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container header__container">
         <div class="languages">
           <a href="#" class="languages__item languages__item--active">RU</a>
           <a href="#" class="languages__item">EN</a>
@@ -53,63 +53,63 @@
             <p>Гибкая масштабируемая система</p>
           </div>
         </section>
-      </header>
-      <main class="main">
-        <section class="products">
-          <h2 class="products__title">
-            Наши <span>ключевые продукты</span> для инвестиций
+      </div>
+    </header>
+    <main class="container">
+      <section class="products">
+        <h2 class="products__title">
+          Наши <span>ключевые продукты</span> для инвестиций
+        </h2>
+        <div class="products__container">
+          <div class="product product--autosearch">
+            <div class="product__wrapper">
+              <h3 class="product__title">Платформа для автоследования</h3>
+              <p class="product__description">
+                Копирование стратегий в автономном режиме
+              </p>
+            </div>
+          </div>
+          <div class="product product--advise">
+            <div class="product__wrapper">
+              <h3 class="product__title">Платформа для робо-эдвайзинга</h3>
+              <p class="product__description">
+                Персонализированный подбор стратегий исходя из заданный
+                параметров
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="worth">
+        <div class="worth__legend">
+          <h2 class="worth__title">
+            <span>Представляем ценность</span> для броĸера и банĸа
           </h2>
-          <div class="products__container">
-            <div class="product product--autosearch">
-              <div class="product__wrapper">
-                <h3 class="product__title">Платформа для автоследования</h3>
-                <p class="product__description">
-                  Копирование стратегий в автономном режиме
-                </p>
-              </div>
-            </div>
-            <div class="product product--advise">
-              <div class="product__wrapper">
-                <h3 class="product__title">Платформа для робо-эдвайзинга</h3>
-                <p class="product__description">
-                  Персонализированный подбор стратегий исходя из заданный
-                  параметров
-                </p>
-              </div>
-            </div>
+          <p class="worth__description">
+            Мы помогаем броĸерам и банĸам запустить собственное мобильное
+            приложение для инвестиций в ĸоротĸие сроĸи и с эĸономией бюджета
+          </p>
+          <button class="button">Заказать демо</button>
+        </div>
+        <div class="worth__benefits">
+          <div class="worth__item">
+            <i class="icon icon-stack"></i>
+            <p>Эĸономим время и деньги на запусĸ digital сервисов﻿</p>
           </div>
-        </section>
-        <section class="worth">
-          <div class="worth__legend">
-            <h2 class="worth__title">
-              <span>Представляем ценность</span> для броĸера и банĸа
-            </h2>
-            <p class="worth__description">
-              Мы помогаем броĸерам и банĸам запустить собственное мобильное
-              приложение для инвестиций в ĸоротĸие сроĸи и с эĸономией бюджета
-            </p>
-            <button class="button">Заказать демо</button>
+          <div class="worth__item">
+            <i class="icon icon-stack"></i>
+            <p>канал привлечения новых клиентов</p>
           </div>
-          <div class="worth__benefits">
-            <div class="worth__item">
-              <i class="icon icon-stack"></i>
-              <p>Эĸономим время и деньги на запусĸ digital сервисов﻿</p>
-            </div>
-            <div class="worth__item">
-              <i class="icon icon-stack"></i>
-              <p>канал привлечения новых клиентов</p>
-            </div>
-            <div class="worth__item">
-              <i class="icon icon-circle"></i>
-              <p>Помогаем увеличить выручку путем запуска нового продукта</p>
-            </div>
-            <div class="worth__item">
-              <i class="icon icon-heart"></i>
-              <p>лояльность действующих клиентов</p>
-            </div>
+          <div class="worth__item">
+            <i class="icon icon-circle"></i>
+            <p>Помогаем увеличить выручку путем запуска нового продукта</p>
           </div>
-        </section>
-      </main>
-    </div>
+          <div class="worth__item">
+            <i class="icon icon-heart"></i>
+            <p>лояльность действующих клиентов</p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
