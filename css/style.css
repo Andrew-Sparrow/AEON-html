@@ -139,6 +139,8 @@ body {
   padding-top: 25px;
   border-radius: 30px;
   margin-bottom: 16px;
+  background-position-x: 185px;
+  background-position-y: 25px;
 }
 
 .product__title {
@@ -161,15 +163,11 @@ body {
 .product--autosearch {
   background-image: url(../img/iPhone_11_Pro/risk_level_autosearch.png);
   background-repeat: no-repeat;
-  background-position-x: 185px;
-  background-position-y: 25px;
 }
 
 .product--advise {
   background-image: url(../img/iPhone_11_Pro/risk_level_advise.png);
   background-repeat: no-repeat;
-  background-position-x: 185px;
-  background-position-y: 25px;
 }
 
 .worth__title {
@@ -230,9 +228,9 @@ body {
   color: var(--blue);
 }
 
-@media (min-width: 820px) {
+@media (min-width: 720px) {
   .container {
-    width: 820px;
+    width: 720px;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -242,8 +240,12 @@ body {
     background-position-y: 20px;
   }
 
+  .header__advantages {
+    width: 343px;
+  }
+
   .languages {
-    margin-bottom: 200px;
+    margin-bottom: 30px;
   }
 
   .button--worth {
@@ -253,6 +255,20 @@ body {
 
   .products {
     margin-bottom: 20px;
+  }
+
+  .product {
+    width: 100%;
+    padding-top: 50px;
+    background-position-x: 340px;
+  }
+
+  .product__wrapper {
+    width: 50%;
+  }
+
+  .product__title {
+    margin-bottom: 10px;
   }
 
   .worth__title {
