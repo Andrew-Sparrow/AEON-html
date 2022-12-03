@@ -316,6 +316,11 @@ body {
     width: 100%;
   }
 
+  .header__summary {
+    font-size: 22px;
+    margin-bottom: 38px;
+  }
+
   .button--header {
     margin-bottom: 198px;
   }
