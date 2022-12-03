@@ -231,12 +231,17 @@ body {
 
   .header__container {
     background-position-x: right;
+    background-position-y: 20px;
   }
 
   .languages {
     margin-bottom: 200px;
   }
+
+  .button--worth {
+    width: 100%;
   }
+}
 
 /* @media (min-width: 376px) {
   .container {
