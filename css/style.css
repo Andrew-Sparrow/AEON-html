@@ -281,16 +281,42 @@ body {
   .worth__description {
     margin-bottom: 30px;
   }
+
+  .worth__item {
+    width: 142px;
+  }
 }
 
-/* @media (min-width: 376px) {
+@media (min-width: 1100px) {
   .container {
     width: 1100px;
     padding-left: 60px;
     padding-right: 60px;
   }
 
+  .header {
+    min-height: 678px;
+  }
+
   .header__container {
     background-image: url(../img/screen_desktop.png);
-  } */
-/* } */
+    background-position-x: 471px;
+    background-position-y: 20px;
+  }
+
+  .button {
+    width: 199px;
+  }
+
+  .languages {
+    margin-bottom: 78px;
+  }
+
+  .header__advantages {
+    width: 100%;
+  }
+
+  .button--header {
+    margin-bottom: 198px;
+  }
+}
