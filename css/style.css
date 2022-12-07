@@ -357,11 +357,19 @@ body {
     margin-bottom: 110px;
   }
 
+  .worth__title,
+  .products__title {
+    font-size: 38px;
+  }
+
   .products__title {
     width: 500px;
-    font-size: 38px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .product__description {
+    width: 173px;
   }
 
   .icon {
@@ -371,9 +379,10 @@ body {
 
   .product {
     width: 482px;
-    background-position-x: 238px;
+    background-position-x: 220px;
     min-height: 328px;
     padding-top: 37px;
+    padding-left: 20px;
   }
 
   .product__title {
@@ -390,5 +399,30 @@ body {
 
   .product--advise {
     background-image: url(../img/iPhone_11_Pro/risk_level_advise_desktop.png);
+  }
+
+  .product--advise .product__description {
+    width: 210px;
+  }
+
+  .worth {
+    display: flex;
+  }
+
+  .worth__title {
+    width: 470px;
+    text-align: left;
+  }
+
+  .worth__title span {
+    width: 100%;
+  }
+
+  .worth__legend {
+    width: 480px;
+  }
+
+  .worth__description {
+    text-align: left;
   }
 }
