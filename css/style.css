@@ -353,6 +353,10 @@ body {
     margin-bottom: 198px;
   }
 
+  .products {
+    margin-bottom: 110px;
+  }
+
   .products__title {
     width: 500px;
     font-size: 38px;
@@ -365,4 +369,26 @@ body {
     left: 160px;
   }
 
+  .product {
+    width: 482px;
+    background-position-x: 238px;
+    min-height: 328px;
+    padding-top: 37px;
+  }
+
+  .product__title {
+    font-size: 20px;
+  }
+
+  .product__description {
+    font-size: 14px;
+  }
+
+  .product--autosearch {
+    background-image: url(../img/iPhone_11_Pro/risk_level_autosearch_dektop.png);
+  }
+
+  .product--advise {
+    background-image: url(../img/iPhone_11_Pro/risk_level_advise_desktop.png);
+  }
 }
