@@ -18,7 +18,6 @@ p {
 
 body {
   font-family: var(--main_font);
-  margin: 0;
   padding: 0;
   color: var(--dark_blue);
   background-color: var(--white);
@@ -412,6 +411,7 @@ body {
   .worth__title {
     width: 470px;
     text-align: left;
+    line-height: 49px;
   }
 
   .worth__title span {
@@ -424,5 +424,29 @@ body {
 
   .worth__description {
     text-align: left;
+    width: 400px;
+  }
+
+  .worth__item {
+    width: 231px;
+    min-height: 140px;
+  }
+
+  .worth__benefits {
+    width: 480px;
+  }
+
+  .worth__item p {
+    font-size: 14px;
+    width: 220px;
+    margin-top: 30px;
+  }
+
+  .worth__item--help p {
+    width: 194px;
+  }
+
+  .worth__item .icon {
+    left: 0;
   }
 }
