@@ -4,7 +4,7 @@
   --dark_blue: #29374E;
   --light_blue: #CBECFF;
   --pale_blue: #E9F6FF;
-  --phone-width: 376px;
+  --main_font: "Euclid Circular A", "Arial", sans-serif;
 }
 
 h1,
@@ -16,7 +16,7 @@ p {
 }
 
 body {
-  font-family: "Euclid Circular A", "Arial", sans-serif;
+  font-family: var(--main_font);
   margin: 0;
   padding: 0;
   color: var(--dark_blue);
@@ -118,7 +118,6 @@ body {
 
 .products__title,
 .worth__title {
-  font-weight: 400;
   font-size: 24px;
   line-height: 31px;
   text-align: center;
@@ -295,7 +294,13 @@ body {
   }
 
   .header {
-    min-height: 678px;
+    min-height: 640px;
+    margin-bottom: 100px;
+  }
+
+  .header__advantages {
+    padding-bottom: 0;
+    margin-bottom: -59px;
   }
 
   .header__container {
@@ -321,7 +326,28 @@ body {
     margin-bottom: 38px;
   }
 
+  .header__img {
+    width: 200px;
+  }
+
+  .header__advantage {
+    width: 241px;
+    padding-left: 20px;
+  }
+
+  .header__advantage p {
+    font-size: 16px;
+  }
+
   .button--header {
     margin-bottom: 198px;
   }
+
+  .products__title {
+    width: 500px;
+    font-size: 38px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
