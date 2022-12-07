@@ -283,6 +283,7 @@ body {
 
   .worth__item {
     width: 142px;
+    min-height: 180px;
   }
 }
 
