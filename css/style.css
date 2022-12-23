@@ -28,7 +28,6 @@ body {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -100,10 +99,6 @@ body {
 .header__advantage p {
   font-size: 14px;
   line-height: 20px;
-}
-
-.worth__benefits {
-  background-color: #CBECFF;
 }
 
 .products__container {
